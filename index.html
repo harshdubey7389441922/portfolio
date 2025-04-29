@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harsh Dubey | Software Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar" data-aos="fade-down" data-aos-duration="800" data-aos-once="false">
+        <div class="navbar-brand">
+            <h1>Harsh Dubey</h1>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Container -->
+    <header class="container" data-aos="zoom-in" data-aos-duration="1200" data-aos-once="false">
+        <div class="profile-container">
+            <img src="images/profile.jpeg" alt="Harsh Dubey Profile Picture" class="profile-pic">
+        </div>
+        <h1>Harsh Dubey</h1>
+        <div id="typewriter-text"></div>
+        <h2 id="animatedText"></h2>
+
+        <!-- Contact Links -->
+        <div class="contact-links">
+            <a href="mailto:harshdubey2219@gmail.com" target="_blank">Email</a>
+            <a href="https://github.com/harshdubey7389441922" target="_blank">GitHub</a>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="section" data-aos="fade-up" data-aos-duration="1000" data-aos-once="false">
+        <h3>About Me</h3>
+        <p>I am a passionate software developer specializing in Java, C++, web technologies (HTML, CSS, JavaScript), and AI & Machine Learning. I love creating innovative solutions and building efficient applications.</p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section" data-aos="fade-right" data-aos-duration="1000" data-aos-once="false">
+        <h3>Skills</h3>
+        <ul class="skills-list">
+            <li>Java</li>
+            <li>C++</li>
+            <li>HTML & CSS</li>
+            <li>JavaScript</li>
+            <li>AI & Machine Learning</li>
+        </ul>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section" data-aos="fade-left" data-aos-duration="1000" data-aos-once="false">
+        <h3>Projects</h3>
+        <div class="project-item">
+            <h4>AI-Based Learning Platform</h4>
+            <p>Developed an intelligent learning platform using Python and Machine Learning algorithms to create personalized study paths for students based on their learning pace and preferences.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section with Contact Form -->
+    <section id="contact" class="section" data-aos="fade-up" data-aos-duration="1000" data-aos-once="false">
+        <h3>Contact</h3>
+        <p>Feel free to reach out via <a href="mailto:harshdubey2219@gmail.com">Email</a> or explore my work on <a href="https://github.com/harshdubey7389441922" target="_blank">GitHub</a>.</p>
+
+        <!-- Contact Form -->
+        <form id="contact-form" action="YOUR_FORM_HANDLER_URL" method="POST">
+            <div class="form-group">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Your Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="message">Your Message</label>
+                <textarea id="message" name="message" placeholder="Type your message" rows="5" required></textarea>
+            </div>
+
+            <button type="submit" class="submit-btn">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>© 2025 Harsh Dubey. Made with ❤️.</p>
+    </footer>
+
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
